@@ -2,19 +2,29 @@
 <html>
 	<head>
 		<title>My First Webpage</title>
+		<style>
+		body {
+			background-color: rgb(20,187,220);
+		}
+		#Info { 
+			background-color: rgb(20,255,19);
+			}
+		#Instructions {
+			background-color: rgb(220,190,195);
+			}
+		</style>
 	</head>
 	<body>
-		<p><strong> hello world</strong> </p>
-    
+		<p id = "Info"><strong> Hi my name is Francisco and I like to play this game whenever I have the time.</strong> </p>
 		<p>
 		<a href="https://play2048.co/">A Very Good Game</a>
 		</p>
 		<ul>
-			<li>Instructions for the game:</li>
-			<li>You have to stack up the blocks which increases the number by 2, depending on their value.</li>
-			<li>You have to get one block up to 2048 to win the game.</li>
+			<li class = "instructions">Instructions for the game:</li>
+			<li class = "instructions">You have to stack up the blocks which increases the number by 2, depending on their value.</li>
+			<li class = "instructions">You have to get one block up to 2048 to win the game.</li>
 		</ul>
 		<p><mark>Here is how it looks when you win</mark><p>
 		<img src="https://www.wikihow.com/images/1/1d/Beat-2048-Step-13-Version-2.jpg" alt="Win on 2048" width = "500">
 	</body>
-</html>
+</html> 
